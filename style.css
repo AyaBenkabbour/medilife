@@ -1,0 +1,130 @@
+:root {
+  --color-main: #0077b6;
+  --color-main-faded: #8ed1fc;
+  --bg: #0327391f;
+  --bg2: ;
+  --main-accent: #;
+  --main-text: #;
+  --shadow: rgba(29, 29, 147, 0.404) 5px 0px 20px;
+  --subtle_shadow: rgba(29, 29, 147, 0.295) 0px 0px 20px;
+}
+body {
+  font-family: helvetica;
+  margin: 0;
+  background-color: var(--bg);
+}
+
+.section1_wrapper {
+  color: black;
+  position: relative;
+}
+.svg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  width: 90%;
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+  /* font-size: 14px; */
+}
+a {
+  color: white;
+}
+.login a {
+  text-decoration: none;
+}
+.login {
+  margin-left: 1rem;
+}
+.side_nav_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+}
+.main {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  margin-bottom: 3rem;
+  display: inline-block;
+  width: 60%;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input[type="select"],
+.dropdown {
+  width: 70%;
+  background-color: #d7e6edde;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border: none;
+  padding: 1.2rem;
+  height: 100%;
+  box-shadow: var(--shadow);
+  margin-right: 1rem;
+}
+/* input[type="submit"]  */
+form button {
+  width: 10%;
+  background-color: #ff8fabc6;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+  padding: 0.7rem;
+  box-shadow: var(--shadow);
+  color: white;
+}
+
+.cards {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  width: 50%;
+}
+.card {
+  color: rgb(80, 79, 79);
+  background-color: #d0e7f2;
+  font-size: 15px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 0px 30px rgba(128, 128, 128, 0.432);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card button {
+  color: rgb(80, 79, 79);
+  border: none;
+  padding: 1rem;
+  background: linear-gradient(36deg, #0076b6ad 0%, #8ed2fcc5 71%);
+  border-radius: 100px;
+  box-shadow: var(--subtle_shadow);
+}
+
+
+
+

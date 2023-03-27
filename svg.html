@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dropdown.css" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="svg-wrapper">
+        <svg
+          width="100%"
+          height="100%"
+          id="svg"
+          viewBox="0 0 1440 690"
+          xmlns="http://www.w3.org/2000/svg"
+          class="transition duration-300 ease-in-out delay-150"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="8%" y1="77%" x2="92%" y2="23%">
+              <stop offset="5%" stop-color="#0077b6"></stop>
+              <stop offset="95%" stop-color="#8ED1FC"></stop>
+            </linearGradient>
+          </defs>
+          <path
+            d="M 0,700 C 0,700 0,350 0,350 C 189.46666666666664,307.6 378.9333333333333,265.20000000000005 540,259 C 701.0666666666667,252.79999999999998 833.7333333333333,282.8 979,304 C 1124.2666666666667,325.2 1282.1333333333332,337.6 1440,350 C 1440,350 1440,700 1440,700 Z"
+            stroke="none"
+            stroke-width="0"
+            fill="url(#gradient)"
+            fill-opacity="1"
+            class="transition-all duration-300 ease-in-out delay-150 path-0"
+            transform="rotate(-180 720 350)"
+          ></path>
+        </svg>
+      </div>
+
+      <div id="container">
+        <div class="box" aria-haspopup="true">
+          <button id="btn-dropdown" class="btn-dropdown">Dropdown Menu</button>
+          <nav id="nav-dropdown" class="nav-dropdown">
+            <ul>
+              <li><a href="#">Menu 1</a></li>
+              <li><a href="#">Menu 2</a></li>
+              <li><a href="#">Menu 3</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
